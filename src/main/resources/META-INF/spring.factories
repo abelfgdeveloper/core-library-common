@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+es.abelfgdeveloper.core.pagination.adapter.in.rest.PaginationMapper,\
+es.abelfgdeveloper.core.pagination.adapter.out.persistence.PaginationMapper
