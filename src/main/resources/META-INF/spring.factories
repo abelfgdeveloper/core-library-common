@@ -1,3 +1,6 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
 es.abelfgdeveloper.core.pagination.adapter.in.rest.PaginationMapper,\
-es.abelfgdeveloper.core.pagination.adapter.out.persistence.PaginationMapper
+es.abelfgdeveloper.core.pagination.adapter.out.persistence.PaginationMapper,\
+es.abelfgdeveloper.core.exception.adapter.in.rest.HttpStatusMapper,\
+es.abelfgdeveloper.core.exception.adapter.in.rest.GenericResponseEntityExceptionHandler,\
+es.abelfgdeveloper.core.exception.adapter.in.rest.StackTraceMapper
