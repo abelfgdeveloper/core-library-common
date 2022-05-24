@@ -27,9 +27,13 @@ public class PaginationIn {
   public PaginationIn(Integer page, Integer size) {
     if (page == null) {
       this.page = DEFAULT_PAGE;
+    } else {
+      this.page = page;
     }
     if (size == null) {
       this.size = DEFAULT_SIZE;
+    } else {
+      this.size = size;
     }
     validatePage(this.page);
     validateSize(this.size);
