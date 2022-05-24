@@ -7,9 +7,9 @@ import lombok.Data;
 @Data
 public class PaginationResponseResource {
 
-  private int getTotalPages;
-  private long getTotalElements;
-  private int getNumberOfElements;
+  private int totalPages;
+  private long totalElements;
+  private int numberOfElements;
   private boolean hasNext;
   private boolean hasPrevious;
 }

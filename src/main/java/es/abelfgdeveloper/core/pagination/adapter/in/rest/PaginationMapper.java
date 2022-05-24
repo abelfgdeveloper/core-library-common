@@ -8,9 +8,9 @@ public class PaginationMapper {
 
   public PaginationResponseResource map(PaginationOut pagination) {
     return PaginationResponseResource.builder()
-        .getTotalPages(pagination.getGetTotalPages())
-        .getTotalElements(pagination.getGetTotalElements())
-        .getNumberOfElements(pagination.getGetNumberOfElements())
+        .totalPages(pagination.getGetTotalPages())
+        .totalElements(pagination.getGetTotalElements())
+        .numberOfElements(pagination.getGetNumberOfElements())
         .hasNext(pagination.isHasNext())
         .hasPrevious(pagination.isHasPrevious())
         .build();
